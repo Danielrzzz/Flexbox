@@ -12,6 +12,67 @@ body {
 
 header {
     background-color:rgba(208, 209, 223, 0.248);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 15vh;
+    display: flex;
+}
 
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding: 3px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgreen;
+}
+
+.hero {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero span {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.hero .btn_power{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .btn_figma {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media (max-width: 530px) {
+  nav ul {
+    flex-direction: column;
+    gap: 9px;
+  }
 }
 
